@@ -26,7 +26,6 @@
 
 .lead__image {
   width: 984px;
-  /*height: 615px;*/
   margin-top: 64px;
   object-fit: cover;
 }
@@ -41,7 +40,6 @@
     width: 100%;
   }
   .lead__image {
-    /*height: 480px;*/
     width: 100vw;
   }
 }
@@ -58,7 +56,6 @@
     line-height: 20px;
   }
   .lead__image {
-    /*height: 200px;*/
     width: 100vw;
   }
 }
