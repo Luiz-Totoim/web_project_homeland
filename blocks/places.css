@@ -89,8 +89,12 @@
   box-sizing: border-box;
 }
 .places__button:hover {
-  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
-  opacity: 0.25;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+}
 
 @media screen and (max-width: 1080px) {
   .places {
