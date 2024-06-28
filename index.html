@@ -1,105 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Luiz Antonio" />
     <meta
       name="description"
       content="alguns lugares de integrantes da TripleTen"
     />
     <meta name="keywords" content="html,css" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="./vendor/fonts/" />
+    <meta name="author" content="Luiz Antonio" />
     <title>De Pátria para Pátria</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo.png" alt="TripleTen" class="header__logo" />
+        <img
+          class="header__logo"
+          src="./images/logo-otimizado.svg"
+          alt="Logo da Tripleten Art Gallery."
+        />
 
-        <div class="lead">
-          <h1 class="lead__title">De Pátria para Pátria</h1>
-          <h2 class="lead__subtitle">
+        <div class="header__content">
+          <h1 class="header__title">De Pátria para Pátria</h1>
+          <p class="header__description">
             Uma jornada épica do Kentucky ao Burundi pelo País de Gales e
             Ucrânia
-          </h2>
+          </p>
+
           <img
+            class="header__image"
             src="./images/paisagem-otimizada.jpg"
-            alt="Foto de paisaje costero"
-            class="lead__image"
+            alt="Paisagem com vista para o mar."
           />
         </div>
       </header>
+
       <main class="content">
-        <section class="intro">
-          <h2 class="intro__title">
-            Conheça um pouco mais sobre a localização dos seus amigos
-          </h2>
-          <p class="intro__text">
-            Cada pessoa é um artista livre, chamado a transformar as condições,
-            pensamentos e estruturas que moldam nossas vidas
-          </p>
-          <p class="intro__text intro__text_right">— Joseph Beuys</p>
-          <p class="intro__text intro__text_small">
-            A cidade de TripleTen reuniu profissionais de diversos cantos do
-            mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de apresentar
-            histórias e fotos de algumas das pessoas que dedicam seu tempo e
-            esforço para fazer com que os futuros profissionais de tecnologia
-            desta cidade se sintam em casa. Cada um de nós tem uma história
-            única sobre o lugar de onde viemos. Sinta-se à vontade para
-            adicionar sua própria história e uma obra de arte visual dedicada à
-            sua cidade natal à nossa coleção. Não importa de onde você é,
-            estamos felizes por você ser nosso vizinho.
-          </p>
+        <section class="introduction">
+          <div class="introduction__content">
+            <h2 class="introduction__title">
+              Conheça um pouco mais sobre a localização dos seus amigos
+            </h2>
+            <p class="introduction__quote">
+              Cada pessoa é um artista livre, chamado a transformar as
+              condições, pensamentos e estruturas que moldam nossas vidas.
+            </p>
+            <p class="introduction__quote-author">— Joseph Beuys</p>
+            <p class="introduction__text">
+              A cidade de TripleTen reuniu profissionais de diversos cantos do
+              mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de
+              apresentar histórias e fotos de algumas das pessoas que dedicam
+              seu tempo e esforço para fazer com que os futuros profissionais de
+              tecnologia desta cidade se sintam em casa. Cada um de nós tem uma
+              história única sobre o lugar de onde viemos. Sinta-se à vontade
+              para adicionar sua própria história e uma obra de arte visual
+              dedicada à sua cidade natal à nossa coleção. Não importa de onde
+              você é, estamos felizes por você ser nosso vizinho.
+            </p>
+          </div>
         </section>
-        <section class="grid">
-          <div class="grid__items">
-          <img
-          src="./images/images-grid/image-grid-1-1.jpg"
-          alt="playa-cielo-gris"
-          class="grid__item"/>
-          <img
-          src="./images/images-grid/image-grid-1-2.jpg"
-          alt="playa-cielo-azul"
-          class="grid__item"/>
-          <img
-          src="./images/images-grid/image-grid-1-3.jpg"
-          alt="iglesia-atardecer"
-          class="grid__item"/>
-          <img
-          src="./images/images-grid/image-grid-1-4.jpg"
-          alt="puente-sobre-el-rio"
-          class="grid__item"/>
-          <img
-          src="./images/images-grid/image-grid-2-1.jpg"
-          alt="pradera"
-          class="grid__item"
-          />
-          <img
-          src="./images/images-grid/image-grid-2-2.jpg"
-          alt="parque"
-          class="grid__item"
-          />
-          <img
-          src="./images/images-grid/image-grid-2-3.jpg"
-          alt="kiosko"
-          class="grid__item"
-          />
-          <img
-          src="./images/images-grid/image-grid-2-4.jpg"
-          alt="casas-en-la-montaña"
-          class="grid__item"
-          />
-        </div>
+
+        <section class="photo-grid">
+          <div class="photo-grid__container">
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-1.png"
+              alt="beira mar."
+            />
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-2.png"
+              alt="cidade costeira."
+            />
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-3.png"
+              alt="igreja."
+            />
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-4.png"
+              alt="ponte."
+            />
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-5.png"
+              alt="campo verde."
+            />
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-6.png"
+              alt="estacionamento."
+            />
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-7.png"
+              alt="oca."
+            />
+            <img
+              class="photo-grid__item"
+              src="./images/grid-item-8.png"
+              alt="Colina."
+            />
+          </div>
         </section>
+
         <section class="places">
           <ul class="places__content">
             <li class="places__item">
               <h2 class="places__title">Criccieth, País de Gales</h2>
               <div class="places__employees">
-                <p class="places__artist">Artistas</p>
+                <p class="places__artists">Artistas</p>
                 <p class="places__artists-names">
                   Steffan Warren, editor-chefe
                 </p>
@@ -109,8 +125,8 @@
               </div>
               <img
                 class="places__image"
-                src="images/imagens-cidades/gales.jpg"
-                alt="pais de gales"
+                src="./images/criccieth-pais-de-gales.png"
+                alt="Vista para uma cidade a beira mar."
               />
               <div class="places__text">
                 <p class="places__paragraph">
@@ -138,6 +154,7 @@
                 >Compre esta obra de arte como NFT</a
               >
             </li>
+
             <li class="places__item">
               <h2 class="places__title">Berea, EUA</h2>
               <div class="places__employees">
@@ -148,8 +165,8 @@
               </div>
               <img
                 class="places__image"
-                src="./images/imagens-cidades/berea-usa.jpg"
-                alt="Vista para uma rua vazia e um céu com poucas nuvens."
+                src="./images/berea-eua.png"
+                alt="Vista para uma rua."
               />
               <div class="places__text">
                 <p class="places__paragraph">
@@ -177,6 +194,7 @@
                 >Compre esta obra de arte como NFT</a
               >
             </li>
+
             <li class="places__item">
               <h2 class="places__title">Muramvya, Burundi</h2>
               <div class="places__employees">
@@ -187,8 +205,8 @@
               </div>
               <img
                 class="places__image"
-                src="./images/imagens-cidades/burundi.jpg"
-                alt="Trevo da entrada da cidade com árvores e uma casa ao fundo."
+                src="./images/muramvya-burundi.png"
+                alt="Entrada da cidade."
               />
               <div class="places__text">
                 <p class="places__paragraph">
@@ -228,13 +246,13 @@
               <div class="places__employees">
                 <p class="places__artists">Artistas</p>
                 <p class="places__artists-names">
-                  Luiz Antonio de Araujo, estudante da TripleTen
+                  Luiz Antonio, estudante da TripleTen
                 </p>
               </div>
               <img
                 class="places__image"
-                src="./images/imagens-cidades/Brasília.jpg"
-                alt="Vista de cima de uma catedral com árvores e outros edifícios em torno, com um céu parcialmente nublado ao fundo."
+                src="./images/Brasília.jpg"
+                alt="Principais pontos turisticos de Brasília."
               />
               <div class="places__text">
                 <p class="places__paragraph">
@@ -262,8 +280,9 @@
           </ul>
         </section>
       </main>
+
       <footer class="footer">
-        <p class="footer__copyright">&copy; 2024. Luiz Antonio</p>
+        <p class="footer__copyright">&copy; 2024 Luiz Antonio</p>
       </footer>
     </div>
   </body>
